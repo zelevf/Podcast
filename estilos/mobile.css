@@ -27,13 +27,17 @@
 
     .x-menu {
         display: none;
+
+        position: relative;
+        z-index: 5;
     }
 
     .menu {
         position: absolute;
         background-color: #0000EC;
         width: 100%;
-        margin-top: -33vw;
+        /* margin-top: -33vw; */
+        top: -13vw;
         margin-left: -10%;
         display: none;
     }
@@ -137,7 +141,7 @@
         width: 100%; 
         background: linear-gradient(to right,#0000FF,#0000A3);
         color: #fff;
-        -webkit-clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+        clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
         padding: 20% 0px;
         margin: 0%;
         justify-content: space-around;
@@ -265,7 +269,7 @@
         color: #fff;
         background-size: contain;
         background-repeat: no-repeat;
-        -webkit-clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 100%);
         padding: 10% 0%;
         display: inline-block;
         align-content: center;
