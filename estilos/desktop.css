@@ -1,0 +1,369 @@
+/* Generales */
+body {
+    color: #060A24;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'IBM Plex Mono', monospace;
+    width: fit-content;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 3.5vw;
+    padding: 0% 5%;
+}
+
+.container {
+    padding: 3% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+
+
+/* Menú haburguesa */
+.header {
+    background-color: #FFF;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#check-menu {
+    display: none;
+}
+
+
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.header a {
+    color: #060A24;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+.logo img {
+    height: 2vw;
+}
+
+.menu ul {
+    margin: 0%;
+    list-style: none;
+    padding: 0%;
+    display: flex;
+}
+
+.menu li:hover {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: #333;
+    text-decoration: none;
+}
+/* Hasta aquí el menú hamburguesa */
+
+
+
+
+
+/* Navegador del header */
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.navegador ul {
+    list-style: none;
+}
+
+.navegador ul li {
+    display: inline-block;
+} 
+
+.navegador ul li a {
+    display: block;
+    padding: 0rem 1rem;
+} 
+
+.encabezado {
+    font-size: 1.35rem;
+}
+
+#checked-menu {
+    display: none;
+}
+
+
+
+/* Presentacionpod */
+.presentacionpod {
+    justify-content: center;
+    padding: 5% 10%;
+    box-sizing: 100%;
+    width: 80%;
+}
+
+.presentacionpod p {
+    text-align: justify;
+    padding: 0%;
+    margin: 0% 0% 5% 0%;
+    width: 60%;
+    font-size: 1.2vw;
+    line-height: 1.5em;
+}
+
+.titulo-pod {
+    font-size: 5vw;
+    text-decoration-style: none;
+    margin: 0%;
+}
+
+.presentacion-boton {
+    background-color: #00F3BB;
+    width: 20%;
+    font-size: 1.5vw;
+    text-align: center;
+    line-height: 220%;
+}
+
+.presentacion-boton a {
+    display: block;
+    width: 100%;
+    padding: 0%;
+    text-decoration: none;
+    color: #333;
+    margin: center;
+}
+
+.presentacion-boton a:hover {
+    background: linear-gradient(to right,#00F0B8,#0000FE);
+    color: #FFF;
+}
+
+
+/* episodios */
+.episodiospod {
+    width: 100%; 
+    background: linear-gradient(to right,#0000FF,#0000A3);
+    color: #fff;
+    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+    padding: 10% 0px 15% 0px;
+    margin: 0%;
+    justify-content: space-around;
+}
+
+.media iframe {
+    display: inline-flex;
+    margin-bottom: 4%;
+    padding: 0% 4%;
+    width: 40.6%;
+    height: 10vw;
+    border: none;
+    align-items: center;
+}
+
+
+
+
+
+/* De dónde venimos */
+.imagen-flotante {
+    justify-content: center;
+    padding: 0% 0%;
+    display: inline-flex;
+    box-sizing: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.superposicion {
+    margin: -10% 10% 0% 10%;
+    display: flex;
+    z-index: 5;
+    align-items: center;
+}
+
+.imagen-phone {
+    width: 36vw;
+}
+
+.texto-y-titulo {
+    width: 50%;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.texto-dos {
+    padding: 0%;
+}
+
+.ancho-parrafo {
+    font-size: 1.3vw;
+    width: 75%;
+}
+
+
+
+/* Sección invitados estelares */
+.primerasfotospod {
+    align-content: center;
+    font-size: 2vw;
+}
+
+.imagenes-in {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.imagenes-invitados {
+    width: 33.3%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo-invitados {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+/* Segundas fotos pod */
+.segundasfotospod {
+    align-content: center;
+    font-size: 2vw;
+    padding: 3% 0% 0% 0%;
+}
+
+.temas {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    width: 72.4%;
+}
+
+.imagenes-iconos {
+    width: 20%;
+}
+
+.imagenes-temas {
+    width: 70%;
+}
+
+.texto-iconos {
+    font-size: 1.5vw;
+}
+
+
+
+
+/* Sección de novedades */
+.novedades-pod {
+    width: 100%; 
+    background: linear-gradient(to right,#0000FF,#0000A3);
+    color: #fff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 100%);
+    padding: 10% 0%;
+    display: inline-block;
+    align-content: center;
+}
+
+
+
+
+.titulo-novedades {
+    text-align: center;        
+}
+
+.ultimasnovedades-boton {
+    background-color: #00F3BB;
+    width: 25%;
+    font-size: 1.5vw;
+    text-align: center;
+    margin: auto;
+    line-height: 220%;
+    padding: 0%;
+}
+
+.ultimasnovedades-boton a {
+    display: block;
+    width: 100%;
+    padding: 0%;
+    text-decoration: none;
+    color: #333;
+    margin: center;
+}
+
+.ultimasnovedades-boton a:hover {
+    color: #FFF;
+    background: linear-gradient(to right,#00F0B8,#0000FE);
+}
+
+
+
+/* Footer */
+footer {
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 5%;
+    margin: 0%;
+    font-size: 1rem;
+    display: flex;
+}
+
+.container-footer {
+    font-size: 1.5vw;
+}
+
+.rrss {
+    margin: 0%;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos-rrss {
+    width: auto;
+    height: 1.5vw;
+    padding-left: 0%;
+    color: #060A24;
+}
+
+

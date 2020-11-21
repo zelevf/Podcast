@@ -1,0 +1,321 @@
+@media (max-width:768px) {
+
+    /* Generales */
+    body {
+        width: 100%;
+        min-width: 320px;
+    }
+
+    h2 {
+        margin: 5%;
+        padding: 0%;
+        font-size: 10vw;
+    }
+
+    /* Menú hamburguesa */
+    .header {
+        position: relative;
+    }
+
+    header label {
+        display: block;
+    }
+
+    .header div img {
+        height: 10vw;
+    }
+
+    .x-menu {
+        display: none;
+    }
+
+    .menu {
+        position: absolute;
+        background-color: #0000EC;
+        width: 100%;
+        margin-top: -33vw;
+        margin-left: -10%;
+        display: none;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li {
+        text-align: center;
+    }
+
+    .menu li a {
+        text-align: center;
+        color: #FFF;
+    }
+
+    .menu a {
+        font-size: 3vw;
+        padding: 10% 0%;
+        margin: 3vw;
+    }
+
+    #check-menu:checked ~ .menu {
+        margin-top: 30%;
+        color: #FFF;
+        display: flex;
+    }
+
+    #check-menu:checked ~ .bars-menu {
+        display: none;
+    }
+
+    #check-menu:checked ~ .x-menu {
+        display: block;
+    }
+
+    .logo img {
+        height: 11vw;
+        margin-top: 20%;
+    }
+
+    .bars-menu {
+        text-align: center;
+        height: 10vw;
+        width: 10vw;
+    }
+
+    .x-menu {
+        text-align: center;
+        height: 10vw;
+        width: 10vw;
+    }
+
+
+
+
+
+    /* Navegador del header */
+    .logo-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+
+
+    /* Presentacionpod */
+    .titulo-pod {
+        width: 90%;
+        font-size: 13vw;
+    }
+
+    .presentacion-boton {
+        width: 100%;
+        font-size: 5vw;
+        text-align: center;
+        line-height: 270%;
+    }
+
+    .presentacionpod p {
+        width: 100%;
+        text-align: justify;
+        font-size: 3vw;
+    }
+
+    .presentacionpod {
+        margin: 0% 5%;
+        padding: 5% 0%;
+        width: 90%;
+    }
+
+
+
+
+
+    /* Episodios */
+    .episodiospod {
+        width: 100%; 
+        background: linear-gradient(to right,#0000FF,#0000A3);
+        color: #fff;
+        -webkit-clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+        padding: 20% 0px;
+        margin: 0%;
+        justify-content: space-around;
+    }
+
+    .media {
+        width: 80%;
+        flex-direction: column;
+    }  
+
+    .media iframe {
+        display: inline-flex;
+        margin: 5%;
+        height: 232px;
+        width: 100%;
+        border: none;
+        justify-content: center;
+        padding-bottom: 10%;
+    }
+
+    .titulo-episodios {
+        font-size: 1.5rem;
+        color: #fff;
+        margin: 0%;
+    }
+
+
+
+
+
+    /* De dónde venimos */
+    .superposicion {
+        margin: -25% 0% 0% 0%;
+        display: flex;
+        flex-direction: column;
+        z-index: 5;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .texto-dos {
+        margin: 0%;
+    }
+
+    .imagen-phone {
+        width: 80vw;
+    }
+
+    .texto-y-titulo {
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+        font-size: 1.5vw;
+    }
+
+    .ancho-parrafo {
+        font-size: 4vw;
+        width: 100%;
+    }
+
+
+
+
+    
+    /* Sección invitados estelares */
+    .titulo-invitados {
+        width: 100%;
+    }
+
+    .imagenes-invitados {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+
+    /* Sección algunos temas */
+    .imagenes-iconos {
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .imagenes-temas {
+        justify-content: center;
+        width: 40%;
+    }
+    
+    .texto-iconos {
+        font-size: 6vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0% 0% 10% 0%;
+    }
+
+
+
+
+
+    /* Segundas fotos pod */
+    .segundasfotospod {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-items: center;
+        font-size: 2vw;
+    }
+
+    .temas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
+
+    /* Novedades */
+    .novedades-pod {
+        width: 100%; 
+        background: linear-gradient(to right,#0000FF,#0000A3);
+        color: #fff;
+        background-size: contain;
+        background-repeat: no-repeat;
+        -webkit-clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 100%);
+        padding: 10% 0%;
+        display: inline-block;
+        align-content: center;
+    }
+    
+    .titulo-novedades {
+        padding: 10%;
+    }
+
+    .ultimasnovedades-boton {
+        width: 90%;
+        font-size: 6vw;
+    }
+
+
+
+
+
+    /* Footer */
+    .footer {
+        text-align: center;
+        align-content: space-between;
+        display: inline;
+        font-size: 2rem;
+        position: relative;
+        padding: 0%;
+    }
+
+    .container-footer p {
+        padding: 0%;
+        font-size: 4.5vw;
+        margin: 0%;
+        padding: 5% 0%;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .rrss {
+        width: 66%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        padding-bottom: 5%;
+        margin: auto;
+    }
+
+    .logos-rrss {
+        height: 5vw;
+    }
+}
+
+
+

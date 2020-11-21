@@ -1,0 +1,19 @@
+{
+  "name": "podcast-final",
+  "version": "1.0.0",
+  "description": "Primer proyecto para la carrera de Desarrollo Web Full Stack de Acámica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zelevf/Podcast.git"
+  },
+  "author": "Fernando Vélez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zelevf/Podcast/issues"
+  },
+  "homepage": "https://github.com/zelevf/Podcast#readme"
+}
