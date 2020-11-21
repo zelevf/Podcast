@@ -169,7 +169,7 @@ header label:hover {
     width: 100%; 
     background: linear-gradient(to right,#0000FF,#0000A3);
     color: #fff;
-    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
     padding: 10% 0px 15% 0px;
     margin: 0%;
     justify-content: space-around;
@@ -298,7 +298,7 @@ header label:hover {
     color: #fff;
     background-size: contain;
     background-repeat: no-repeat;
-    -webkit-clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 100%);
     padding: 10% 0%;
     display: inline-block;
     align-content: center;
